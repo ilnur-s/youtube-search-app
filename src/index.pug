@@ -1,0 +1,15 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title="YouTube Search App"
+  body
+    .form-wrapper
+      form(class="search-form")
+        label(class="search-form__label" for="search-form__input")
+          img(class="search-form__img")
+        br
+        input(class="search-form__input" id="search-form__input" type="text" name="search-input" value="" placeholder="Введите название видео")
+        button(class="search-form__button" type="submit" name="search-button") Найти
+      #accordionExample.accordion
